@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Awesome Button react</h1>
-      <h2>Creating a conflict Fhenon !</h2>
+      <h2>Another conflict Fhenon !</h2>
       <div className="card">
         <AwesomeButton>Hello Jimmy !</AwesomeButton>
         <button onClick={() => setCount((count) => count + 1)}>
