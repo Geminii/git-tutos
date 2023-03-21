@@ -18,6 +18,8 @@ function App() {
       </div>
       <h1>Trying interactive rebase</h1>
       <h2>Oh nooo what happened ?!</h2>
+      <h3>Another title</h3>
+      <button>Another button</button>
       <div className="card">
         <AwesomeButton>Hello Jimmy !</AwesomeButton>
         <button onClick={() => setCount((count) => count + 1)}>
