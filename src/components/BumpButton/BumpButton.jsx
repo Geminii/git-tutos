@@ -1,5 +1,5 @@
 import styles from "./AwesomeButton.module.css";
 
-export const AwesomeButton = ({ children }) => {
+export const BumpButton = ({ children }) => {
   return <button className={styles.main}>{children}</button>;
 };

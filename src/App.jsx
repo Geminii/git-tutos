@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { AwesomeButton } from "./components/AwesomeButton/AwesomeButton";
+import { BumpButton } from "./components/BumpButton/BumpButton";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +19,7 @@ function App() {
       <h1>Awesome Button react</h1>
       <h2>Oh nooo what happened ?!</h2>
       <div className="card">
-        <AwesomeButton>Hello Jimmy !</AwesomeButton>
+        <BumpButton>Hello Jimmy !</BumpButton>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
