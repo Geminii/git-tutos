@@ -20,9 +20,6 @@ function App() {
       <h2>Oh nooo what happened ?!</h2>
       <div className="card">
         <BumpButton>Hello Jimmy !</BumpButton>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
