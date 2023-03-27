@@ -4,7 +4,6 @@ import { BumpButton } from "./components/BumpButton/BumpButton";
 function App() {
   return (
     <div className="App">
-      <h2>Oh nooo what happened ?!</h2>
       <div className="card">
         <BumpButton>Hello Jimmy !</BumpButton>
         <p>
